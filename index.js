@@ -1,8 +1,8 @@
 function scuberGreetingForFeet(someValue){
   let result;
-  if (someValue <= 200) {
+  if (someValue <= 400) {
     result = `This one is on me!`;
-  } else if (someValue > 200 && someValue <= 2000) {
+  } else if (someValue > 400 && someValue <= 2000) {
     result = `That will be twenty bucks.`;
   } else if (someValue > 2000 && someValue <= 2500) {
     result = `I will gladly take your thirty bucks.`;
@@ -11,8 +11,6 @@ function scuberGreetingForFeet(someValue){
   }
   return result;
 }
-
-
 
 // Function to check the city
 function ternaryCheckCity(city){
